@@ -13,7 +13,7 @@ gulp.task('build-css', function () {
     return sass('source/sass/main.sass')
     	.on('error', sass.logError)
         .pipe(cleanCSS())
-        .pipe(gulp.dest('static/css'));
+        .pipe(gulp.dest('public/css'));
 });
 
 gulp.task('build-js', function() {
@@ -25,7 +25,7 @@ gulp.task('build-js', function() {
 
 gulp.task('watch', function() {
     gulp.watch(paths.css, ['build-css']);
-	gulp.watch(paths.js, ['build-js', 'build-jshint']);
+	gulp.watch(paths.js, ['build-js'] );
 });
 
 gulp.task('default', ['build-css', 'build-js', 'watch']);

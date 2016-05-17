@@ -6,7 +6,8 @@ function get_current($name) {
 ?>
 
 <header class="header-main">
-    <div class="container">
+    <div class="container clearfix">
+    	<i class="material-icons visible-xs" id="btn-menu">menu</i>
 		<h1 class="logo"><a href="index.php" title="CompanyName"><img src="public/img/logo.png" alt="CompanyName"></a></h1>
 		<nav class="nav-main">
 	        <ul>
