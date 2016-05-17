@@ -1,0 +1,66 @@
+// space
+=space($num)
+	margin-bottom: $num
+.space-1
+	+space(1rem)
+.space-2
+	+space(2rem)
+.space-3
+	+space(4rem)
+.space-4
+	+space(8rem)
+=spaceTop($num)
+	margin-top: $num
+.space-top-1
+	+spaceTop(1rem)
+.space-top-2
+	+spaceTop(2rem)
+.space-top-3
+	+spaceTop(4rem)
+.space-top-4
+	+spaceTop(8rem)
+
+// row
+=marginLR($num)
+	margin-left: $num
+	margin-right: $num
+=paddingLR($num)
+	padding-left: $num
+	padding-right: $num
+.row.row-sticky
+	+marginLR(0)
+	> [class^="col-"]
+		+paddingLR(0)
+.row.row-xs
+	+marginLR(-0.5rem)
+	> [class^="col-"]
+		+paddingLR(0.5rem)
+.row.row-sm
+	+marginLR(-1rem)
+	> [class^="col-"]
+		+paddingLR(1rem)
+.row.row-md
+	+marginLR(-2rem)
+	> [class^="col-"]
+		+paddingLR(2rem)
+.row.row-lg
+	+marginLR(-4rem)
+	> [class^="col-"]
+		+paddingLR(4rem)
+
+// media query
+=phone
+	@media (max-width:480px)
+		@content
+=xs
+	@media (max-width:767px)
+		@content
+=sm
+	@media (min-width:768px)
+		@content
+=md
+	@media (min-width:992px)
+		@content
+=lg
+	@media (min-width:1200px)
+		@content
