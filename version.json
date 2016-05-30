@@ -1,3 +1,11 @@
 {
-	"version":"2016053001"
+	"version":"2016053001",
+	"version_note":{
+		"en":[
+			"Test to update."
+		],
+		"zh-TW":[
+			"測試更新"
+		]
+	}
 }
