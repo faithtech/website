@@ -8,10 +8,14 @@ $(function(){
   		document.body.classList.add('nav-main-open');
   		e.stopPropagation();
  		document.addEventListener('click', function(e){
-    		if(!e.target.closest('.nav-main')){
-      			document.body.classList.remove('nav-main-open');
-      			mask.classList.remove('show');
-    		}
+  			document.body.classList.remove('nav-main-open');
+  			mask.classList.remove('show');
   		});
+	});
+
+	// btn-scroll
+	$('.btn-scroll').on('click', function(){
+		var target = $(this.hash).offset().top;
+		$('html, body').animate({'scrollTop': target});
 	});
 });

@@ -1,23 +1,52 @@
 .header-main
-	background-color: rgba(0,0,0,.04)
+	+sm
+		background-image: url(../img/bg.jpg)
+		height: 54.4rem
+	+xs
+		background-image: url(../img/bg-M.jpg)
+		
+		height: 64.4rem
+	+phone
+		height: 54.4rem
 	padding: 1rem 0
+	background-size: cover
+	background-repeat: no-repeat
 	position: relative
-	h1		
+	margin-bottom: 130px
+	.logo	
 		font-size: 28px
 		+sm
 			float: left
 		+xs
 			text-align: center
+		+phone
+			img
+				width: 96px
+	.img-demo
+		position: absolute
+		bottom: -170px
+		left: 10%
+		width: 80%
+		img
+			margin-left: auto
+			margin-right: auto
+	.slogan
+		color: #fff
+		font-size: 24px
+		font-weight: bold
+		+phone
+			font-size: 18px
 	#btn-menu
 		position: absolute
 		left: 0
-		top: 50%
+		top: 6px
 		width: 48px
 		height: 48px
 		line-height: 48px
 		text-align: center
-		transform: translateY(-50%)
 		cursor: pointer
 		transition: .2s
+		color: #fff
+		font-size: 14px
 		&:hover
 			color: $primary
