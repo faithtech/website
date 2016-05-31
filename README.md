@@ -7,5 +7,5 @@ Chia Yi Lai's website template：
 3.  Gulp: JS 合併壓縮
 6.  使用資源：
   - Bootstrap CSS & JavaScript
-  - Google Material Icons
+  - Fontawesome Icons
   - jQuery
