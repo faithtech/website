@@ -1,22 +1,24 @@
 .nav-main
 	float: right
-	ul
-		li
-			a
+	> ul
+		> li
+			> a
 				display: block
 				text-transform: uppercase
 				transition: .2s
 				padding: 1rem 2rem
 	+sm
-		ul
-			li
+		> ul
+			> li
 				float: left
-				a
+				> a
 					color: #fff
 					font-size: 16px
-				&.current a
+				&.current > a
 					color: $primary
-
+				.dropdown-menu
+					right: 0
+					left: auto
 	+xs
 		position: fixed
 		left: -280px
@@ -29,11 +31,11 @@
 		box-shadow: 0 0 10px rgba(0,0,0,.2)
 		.nav-main-open &
 			left: 0
-		ul
-			li
-				a
+		> ul
+			> li
+				> a
 					border-bottom: 1px solid $border-color
-				&.current a
+				&.current > a
 					background-color: $primary
 					color: #fff
 
