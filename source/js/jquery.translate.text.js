@@ -1,8 +1,8 @@
 var dict = {
 	// header
-  	'What is CHECKIN+ ?': {
-    	zhtw: 'CHECKIN+ 是什麼？',
-    	en: 'What is CHECKIN+ ?'
+  	'What is Checkin+ ?': {
+    	zhtw: 'Checkin+ 是什麼？',
+    	en: 'What is Checkin+ ?'
   	},
   	'How to work?': {
     	zhtw: '如何合作？',
@@ -16,18 +16,18 @@ var dict = {
     	zhtw: '關於我們',
     	en: 'About'
   	},
-  	'Languages': {
+  	'Lang': {
     	zhtw: '語言',
-    	en: 'Languages'
+    	en: 'Lang'
   	},
-  	// slogan
-  	'・The leader of Exhibition technology': {
+  	// slogan 要精簡
+  	'・Exhibition leader': {
     	zhtw: '會展科技領導者',
-    	en: '・The leader of Exhibition technology'
+    	en: '・Exhibition leader'
   	},
-  	'・Fully functional check-in services': {
+  	'・Fully functional': {
     	zhtw: '・全功能簽到服務',
-    	en: '・Fully functional check-in services'
+    	en: '・Fully functional'
   	},
   	'・More smoothly': {
     	zhtw: '・讓活動更加順暢',
@@ -38,10 +38,10 @@ var dict = {
     	en: 'Send Order'
   	},
 
-  	// What is CHECKIN+ ?
+  	// What is Checkin+ ?
   	'Checkin+ is little helper activity report, regardless of how much human activity is, Checkin+ can help you save a lot of human volunteers, so that your activities are no longer running around in circles': {
     	zhtw: 'Checkin+ 是活動報到小助手，不論是多少人的活動，Checkin+ 都可以幫你節省大量的人力志工，讓您的活動不再手忙腳亂',
-    	en: 'Checkin+ is little helper activity report, regardless of how much human activity is, Checkin + can help you save a lot of human volunteers, so that your activities are no longer running around in circles'
+    	en: 'Checkin+ is little helper activity report, regardless of how much human activity is, Checkin+ can help you save a lot of human volunteers, so that your activities are no longer running around in circles'
   	},
   	'Generating statistics': {
     	zhtw: '一鍵產生統計表',
@@ -127,9 +127,9 @@ var dict = {
     	zhtw: '不用網路就能立刻作業',
     	en: 'No network can immediately work'
   	},
-  	'The web site is not good, but also to complete the sign thing? Checkin + No problem, our system can communicate with each other, so even if there is no network can be completed sign': {
+  	'The web site is not good, but also to complete the sign thing? Checkin+ No problem, our system can communicate with each other, so even if there is no network can be completed sign': {
     	zhtw: '現場網路不好，也能完成簽到嘛？Checkin+ 沒問題，我們系統可以互相通訊，所以即使沒有網路也能完成簽到',
-    	en: 'The web site is not good, but also to complete the sign thing? Checkin + No problem, our system can communicate with each other, so even if there is no network can be completed sign'
+    	en: 'The web site is not good, but also to complete the sign thing? Checkin+ No problem, our system can communicate with each other, so even if there is no network can be completed sign'
   	},
   	'Private Cloud Share': {
     	zhtw: '私有雲分享',
@@ -143,9 +143,9 @@ var dict = {
     	zhtw: '快速交換名片',
     	en: 'Rapid exchange business cards'
   	},
-  	'Participants can quickly and new acquaintances through the exchange of business cards Checkin, strung commercial link': {
+  	'Participants can quickly and new acquaintances through the exchange of business cards Checkin+, strung commercial link': {
     	zhtw: '透過 Checkin+，與會者可以快速和新認識的朋友交換名片，串起商業的連結',
-    	en: 'Participants can quickly and new acquaintances through the exchange of business cards Checkin, strung commercial link'
+    	en: 'Participants can quickly and new acquaintances through the exchange of business cards Checkin+, strung commercial link'
   	},
   	'Value-added data services': {
     	zhtw: '加值數據服務',
@@ -169,17 +169,17 @@ var dict = {
     	zhtw: '聽聽用戶怎麼說',
     	en: 'Listen to how users say'
   	},
-  	'Large Conference Registration volunteers need 20--30 people, with Checkin + now only 10 people is enough! 1/3 Human save it!': {
+  	'Large Conference Registration volunteers need 20--30 people, with Checkin+ now only 10 people is enough! 1/3 Human save it!': {
     	zhtw: '大型會議報到志工都需要20 - 30 人，有了 Checkin+ 現在只要 10個人就夠了！人力節省 1/3 呢！',
-    	en: 'Large Conference Registration volunteers need 20--30 people, with Checkin + now only 10 people is enough! 1/3 Human save it!'
+    	en: 'Large Conference Registration volunteers need 20--30 people, with Checkin+ now only 10 people is enough! 1/3 Human save it!'
   	},
   	'- xxxx event hoster': {
     	zhtw: '- xxxx 活動主辦人',
     	en: '- xxxx event hoster'
   	},
-  	'After the event, always take a long time to sort out the questionnaire and lists After Checkin +, faster analysis was again accurate marketing': {
+  	'After the event, always take a long time to sort out the questionnaire and lists After Checkin+, faster analysis was again accurate marketing': {
     	zhtw: '活動結束後，總是要花很長時間整理問卷和名單，用 Checkin+ 後，可以更快分析與會者，再次精準行銷',
-    	en: 'After the event, always take a long time to sort out the questionnaire and lists After Checkin +, faster analysis was again accurate marketing'
+    	en: 'After the event, always take a long time to sort out the questionnaire and lists After Checkin+, faster analysis was again accurate marketing'
   	},
   	'- xxxx Marketing Manager': {
     	zhtw: '- xxxx 行銷經理',
@@ -208,7 +208,69 @@ var dict = {
     	en: 'Email:'
   	},
   	'Add:': {
-    	zhtw: '聯絡地址：',
+    	zhtw: '地址：',
     	en: 'Add:'
+  	},
+  	'10658 6F., No.153, Sec. 3, Xinyi Rd., Da’an Dist., Taipei City 106, Taiwan (R.O.C.)': {
+    	zhtw: '10658 台北市大安區信義路三段153號6樓',
+    	en: '10658 6F., No.153, Sec. 3, Xinyi Rd., Da’an Dist., Taipei City 106, Taiwan (R.O.C.)'
+  	},
+
+  	// 預約表單
+  	"Hello, please help us fill in the form and we'll contact you as soon as possible, thank you!": {
+    	zhtw: '您好，請協助我們填寫表單，我們會盡快和您聯絡，謝謝！',
+    	en: "Hello, please help us fill in the form and we'll contact you as soon as possible, thank you!"
+  	},
+  	'Full name': {
+    	zhtw: '您的大名',
+    	en: 'Full name'
+  	},
+  	'Phone': {
+    	zhtw: '聯絡電話',
+    	en: 'Phone'
+  	},
+  	'Email': {
+    	zhtw: '聯絡信箱',
+    	en: 'Email'
+  	},
+  	'Event name': {
+    	zhtw: '活動名稱',
+    	en: 'Event name'
+  	},
+  	'Event time': {
+    	zhtw: '活動時間',
+    	en: 'Event time'
+  	},
+  	'From': {
+    	zhtw: '從',
+    	en: 'From'
+  	},
+  	'To': {
+    	zhtw: '到',
+    	en: 'To'
+  	},
+  	'Y': {
+    	zhtw: '年',
+    	en: 'Y'
+  	},
+  	'M': {
+    	zhtw: '月',
+    	en: 'M'
+  	},
+  	'D': {
+    	zhtw: '日',
+    	en: 'D'
+  	},
+  	'Event address': {
+    	zhtw: '活動地點',
+    	en: 'Event address'
+  	},
+  	'Estimated number of activities': {
+    	zhtw: '預估活動人數',
+    	en: 'Estimated number of activities'
+  	},
+  	'other': {
+    	zhtw: '其他',
+    	en: 'other'
   	},
 }
