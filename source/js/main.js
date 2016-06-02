@@ -59,4 +59,60 @@ $(function(){
 		var target = $(this.hash).offset().top;
 		$('html, body').animate({'scrollTop': target});
 	});
+
+	// form-booking
+	$('#form-booking').on('submit', function(e){
+		e.preventDefault();
+		var $form = $(this),
+			url = $form.attr('action'),
+			name = $('#booking-name').val(),
+			phone = $('#booking-phone').val(),
+			email = $('#booking-email').val(),
+			eventName = $('#booking-event-name').val(),
+			fromYearSelect = document.getElementById('booking-from-year'),
+			fromYear = fromYearSelect.options[fromYearSelect.selectedIndex].text,
+			fromMonthSelect = document.getElementById('booking-from-month'),
+			fromMonth = fromMonthSelect.options[fromMonthSelect.selectedIndex].text,
+			fromDaySelect = document.getElementById('booking-from-day'),
+			fromDay = fromDaySelect.options[fromDaySelect.selectedIndex].text,
+			toYearSelect = document.getElementById('booking-to-year'),
+			toYear = toYearSelect.options[toYearSelect.selectedIndex].text,
+			toMonthSelect = document.getElementById('booking-to-month'),
+			toMonth = toMonthSelect.options[toMonthSelect.selectedIndex].text,
+			toDaySelect = document.getElementById('booking-to-day'),
+			toDay = toDaySelect.options[toDaySelect.selectedIndex].text,
+			eventAdd = $('#booking-event-add').val(),
+			eventMembers = $('#booking-event-members').val(),
+			other = $('#booking-other').val();
+
+		$.ajax({
+           	type: "POST",
+           	url: url,
+	       	data: {
+	       		name: name,
+	       		phone: phone,
+	       		email: email,
+				eventName: eventName,
+				fromYear: fromYear,
+				fromMonth: fromMonth,
+				fromDay: fromDay,
+				toYear: toYear,
+				toMonth: toMonth,
+				toDay: toDay,
+				eventAdd: eventAdd,
+				eventMembers: eventMembers,
+				other: other
+	       	},
+           	dataType: 'json',
+           	success: function(data){
+               	console.log('success');
+               	$('#modal-success').modal('show');
+           	},
+           	error: function(){
+           		console.log('error');
+           		$('#modal-booking').modal('hide');
+           		$('#modal-error').modal('show');
+           	}
+        });    	
+	});
 });

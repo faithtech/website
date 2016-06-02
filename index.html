@@ -213,41 +213,41 @@
 
 	<!-- modal-booking -->
 	<div class="modal fade" id="modal-booking" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	  	<div class="modal-dialog" role="document">
+	  	<div class="modal-dialog modal-lg" role="document">
 	    	<div class="modal-content">
 	      		<div class="modal-header">
 	        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 	      		</div>
 		      	<div class="modal-body">
 		        	<p class="trn">Hello, please help us fill in the form and we'll contact you as soon as possible, thank you!</p>
-		        	<form>
+		        	<form id="form-booking" action="api-url">
 		        		<div class="form-group">
     						<label>* <span class="trn">Full name</span></label>
-    						<input type="text" class="form-control">
+    						<input type="text" class="form-control required" id="booking-name" required>
   						</div>
   						<div class="form-group">
     						<label>* <span class="trn">Phone</span></label>
-    						<input type="tel" class="form-control">
+    						<input type="tel" class="form-control required" id="booking-phone" required>
   						</div>
   						<div class="form-group">
     						<label>* <span class="trn">Email</span></label>
-    						<input type="mail" class="form-control">
+    						<input type="mail" class="form-control required" id="booking-email" required>
   						</div>
   						<div class="form-group">
     						<label class="trn">Event name</label>
-    						<input type="text" class="form-control">
+    						<input type="text" class="form-control" id="booking-event-name">
   						</div>
   						<div class="form-group">
     						<label class="trn">Event time</label>
     						<div class="clearfix">
     							<span class="pull-left select-words trn">From</span>
-    							<select class="form-control pull-left" style="width: 80px;">
+    							<select class="form-control pull-left" style="width: 80px;" id="booking-from-year">
     								<option>2016</option>
     								<option>2017</option>
     								<option>2018</option>
     							</select>
     							<span class="pull-left select-words hidden-phone trn">Y</span>
-    							<select class="form-control pull-left" style="width: 64px;">
+    							<select class="form-control pull-left" style="width: 64px;" id="booking-from-month">
     								<option>01</option>
     								<option>02</option>
     								<option>03</option>
@@ -262,7 +262,7 @@
     								<option>12</option>
     							</select>
     							<span class="pull-left select-words hidden-phone trn">M</span>
-    							<select class="form-control pull-left" style="width: 64px;">
+    							<select class="form-control pull-left" style="width: 64px;" id="booking-from-day">
     								<option>01</option>
     								<option>02</option>
     								<option>03</option>
@@ -299,13 +299,13 @@
     						</div>
     						<div class="clearfix">
     							<span class="pull-left select-words trn">To</span>
-    							<select class="form-control pull-left" style="width: 80px;">
+    							<select class="form-control pull-left" style="width: 80px;" id="booking-to-year">
     								<option>2016</option>
     								<option>2017</option>
     								<option>2018</option>
     							</select>
     							<span class="pull-left select-words hidden-phone trn">Y</span>
-    							<select class="form-control pull-left" style="width: 64px;">
+    							<select class="form-control pull-left" style="width: 64px;" id="booking-to-month">
     								<option>01</option>
     								<option>02</option>
     								<option>03</option>
@@ -320,7 +320,7 @@
     								<option>12</option>
     							</select>
     							<span class="pull-left select-words hidden-phone trn">M</span>
-    							<select class="form-control pull-left" style="width: 64px;">
+    							<select class="form-control pull-left" style="width: 64px;" id="booking-to-day">
     								<option>01</option>
     								<option>02</option>
     								<option>03</option>
@@ -358,21 +358,51 @@
   						</div>
   						<div class="form-group">
     						<label class="trn">Event address</label>
-    						<input type="text" class="form-control">
+    						<input type="text" class="form-control" id="booking-event-add">
   						</div>
   						<div class="form-group">
     						<label class="trn">Estimated number of activities</label>
-    						<input type="text" class="form-control">
+    						<input type="text" class="form-control" id="booking-event-members">
   						</div>
   						<div class="form-group">
     						<label class="trn">other</label>
-    						<textarea class="form-control" style="height: 120px;"></textarea>
+    						<textarea class="form-control" style="height: 120px;" id="booking-other"></textarea>
   						</div>
   						<div class="space-4 text-center" style="margin-bottom: 30rem;"><button type="submit" class="btn btn-primary btn-xl trn">Send Order</button></div>
 		        	</form>
 		      	</div>
 	    	</div>
 	  	</div>
+	</div>
+
+	<!-- modal-success -->
+	<div class="modal fade bs-example-modal-sm" id="modal-success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  	<div class="modal-dialog modal-sm" role="document">
+	    	<div class="modal-content">
+	      		<div class="modal-header">
+	        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	      		</div>
+		      	<div class="modal-body">
+		      		<h3>表單已送出</h3>
+		      		<p>感謝您耐心填寫，我們會盡快和您聯絡！謝謝！</p>
+		      		<div class="text-center"><button type="button" class="btn btn-primary" data-dismiss="modal">確定</button></div>
+		      	</div>
+		    </div>
+		</div>
+	</div>
+
+	<!-- modal-error -->
+	<div class="modal fade" id="modal-error" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  	<div class="modal-dialog modal-sm" role="document">
+	    	<div class="modal-content">
+		      	<div class="modal-body">
+		      		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		      		<h3 class="text-center space-2 space-top-2">出了一些問題！</h3>
+		      		<p class="text-center space-2">抱歉，出了一些問題，您可以先寄信到 service@faithtech.com.tw 我們會盡快和您聯絡！謝謝！</p>
+		      		<div class="text-center"><button type="button" class="btn btn-primary btn-xl" data-dismiss="modal">確定</button></div>
+		      	</div>
+		    </div>
+		</div>
 	</div>
 
     <script>
