@@ -22,7 +22,7 @@ var dict = {
   	},
   	// slogan 要精簡
   	'・Exhibition leader': {
-    	zhtw: '會展科技領導者',
+    	zhtw: '・會展科技領導者',
     	en: '・Exhibition leader'
   	},
   	'・Fully functional': {

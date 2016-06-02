@@ -1,17 +1,22 @@
 .header-main
-	+sm
-		background-image: url(../img/bg.jpg)
-		height: 54.4rem
-	+xs
-		background-image: url(../img/bg-M.jpg)		
-		height: 64.4rem
-	+phone
-		height: 54.4rem
-	padding: 1rem 0
-	background-size: cover
-	background-repeat: no-repeat
+	padding: 1rem 0		
 	position: relative
-	margin-bottom: 130px
+	.header-bg
+		background-size: cover
+		background-repeat: no-repeat
+		position: absolute
+		left: 0
+		top: 0
+		z-index: -1
+		width: 100%
+		+sm
+			background-image: url(../img/bg.jpg)
+			height: 620px
+		+xs
+			background-image: url(../img/bg-M.jpg)		
+			height: 690px
+		+phone
+			height: 550px	
 	.logo	
 		font-size: 28px
 		+sm
@@ -25,6 +30,8 @@
 		img
 			margin-left: auto
 			margin-right: auto
+			+phone
+				max-width: 280px
 	.slogan
 		color: #fff
 		font-size: 24px
