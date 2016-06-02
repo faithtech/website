@@ -1,0 +1,108 @@
+.btn
+	border-radius: 2px
+	border: 0
+	padding: 4px 16px
+	color: #fff
+	&:hover
+		color: #fff
+
+.btn-primary
+	background-color: $primary
+	&:hover
+		background-color: darken($primary, 10%)
+
+.btn-secondary
+	background-color: $secondary
+	&:hover
+		background-color: darken($secondary, 10%)
+
+.btn-circle
+	width: 40px
+	height: 40px
+	line-height: 40px
+	padding: 0
+	border-radius: 50%
+
+.btn-xl
+	width: 190px
+	height: 50px
+	line-height: 50px
+	text-align: center
+	font-weight: bold
+	font-size: 20px
+	padding: 0
+	border-radius: 5px
+	border: 1px solid #fff
+	letter-spacing: 2px
+	+phone
+		font-size: 18px
+	&:hover
+		border: 1px solid #fff
+
+.hr
+	margin: 24px 0
+	overflow: hidden
+	&.hr-lg
+		margin: 80px 0
+	&.hr-xs
+		margin: 0
+
+.box
+	padding: 4rem 0
+	&.box-gray
+		background-color: #f9f9f9
+		+xs
+			background-color: #f2f2f2
+
+.container-620
+	max-width: 620px
+
+.border-dashed-center
+	height: 1px
+	width: 60%
+	position: absolute
+	left: 20%
+	top: 42%
+	border-bottom: 1px dashed $gray
+
+.form-control
+	border: 0
+	border-bottom: 1px solid $primary
+	border-radius: 0
+	box-shadow: none !important
+
+textarea.form-control
+	border: 1px solid $gray
+
+.dropdown-menu > li > a
+	padding: 8px 20px
+
+.hidden-phone
+	+phone
+		display: none
+
+.modal
+	.select-words
+		margin-right: .5rem
+		position: relative
+		top: 6px
+	select
+		margin: 0 .5rem 1rem 0
+	.modal-header
+		border: 0
+	.close
+		font-size: 40px
+	.modal-lg .modal-body
+		padding: 2rem 8rem
+		+phone
+			padding: 2rem
+	.modal-sm
+		+sm
+			width: 400px
+		.modal-body
+			h3
+				font-size: 20px
+				font-weight: bold
+			p
+				font-size: 14px
+				color: #969696

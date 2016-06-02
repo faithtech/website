@@ -1,0 +1,54 @@
+.header-main
+	padding: 1rem 0		
+	position: relative
+	.header-bg
+		background-size: cover
+		background-repeat: no-repeat
+		position: absolute
+		left: 0
+		top: 0
+		z-index: -1
+		width: 100%
+		+sm
+			background-image: url(../img/bg.jpg)
+			height: 620px
+		+xs
+			background-image: url(../img/bg-M.jpg)		
+			height: 690px
+		+phone
+			height: 550px	
+	.logo	
+		font-size: 28px
+		+sm
+			float: left
+		+xs
+			text-align: center
+		+phone
+			img
+				width: 96px
+	.img-demo
+		img
+			margin-left: auto
+			margin-right: auto
+			+phone
+				max-width: 280px
+	.slogan
+		color: #fff
+		font-size: 24px
+		font-weight: bold
+		+phone
+			font-size: 18px
+	#btn-menu
+		position: absolute
+		left: 0
+		top: 6px
+		width: 48px
+		height: 48px
+		line-height: 48px
+		text-align: center
+		cursor: pointer
+		transition: .2s
+		color: #fff
+		font-size: 14px
+		&:hover
+			color: $primary
