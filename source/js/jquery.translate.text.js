@@ -273,4 +273,26 @@ var dict = {
     	zhtw: '其他',
     	en: 'other'
   	},
+
+  	// form notice
+  	'Form has been sent': {
+      	zhtw: '表單已送出',
+      	en: 'Form has been sent'
+    },
+    "Thank you for your patience to fill, and we'll contact you as soon as possible! Thank you!": {
+      	zhtw: '表感謝您耐心填寫，我們會盡快和您聯絡！謝謝！',
+      	en: "Thank you for your patience to fill, and we'll contact you as soon as possible! Thank you!"
+    },
+    'OK': {
+      	zhtw: '確定',
+      	en: 'OK'
+    },
+    'Woops!': {
+      	zhtw: '出了一些問題！',
+      	en: 'Woops!'
+    },
+    'Sorry,something has gone wrong, you may want to send a letter to service@faithtech.com.tw We will contact you as soon as possible! Thank you!': {
+      	zhtw: '抱歉，出了一些問題，您可以先寄信到 service@faithtech.com.tw 我們會盡快和您聯絡！謝謝！',
+      	en:'Sorry, something has gone wrong, you may want to send a letter to service@faithtech.com.tw We will contact you as soon as possible! Thank you!'
+    },
 }
