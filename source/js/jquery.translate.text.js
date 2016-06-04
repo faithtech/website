@@ -195,9 +195,9 @@ var dict = {
   	},
 
   	// footer
-  	'Faithtech Co., Ltd.': {
+  	'Faith Tech Corp.': {
     	zhtw: '誠義資訊股份有限公司',
-    	en: 'Faithtech Co., Ltd.'
+    	en: 'Faith Tech Corp.'
   	},
   	'Tel:': {
     	zhtw: '電話：',
