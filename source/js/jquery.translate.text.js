@@ -17,8 +17,8 @@ var dict = {
     	en: 'About'
   	},
   	'Lang': {
-    	zhtw: '語言',
-    	en: 'Lang'
+    	zhtw: 'English',
+    	en: '正體中文'
   	},
   	// slogan 要精簡
   	'・Exhibition leader': {
@@ -30,7 +30,7 @@ var dict = {
     	en: '・Fully functional'
   	},
   	'・More smoothly': {
-    	zhtw: '・讓活動更加順暢',
+    	zhtw: '・雲端通訊交換機',
     	en: '・More smoothly'
   	},
   	'Send Order': {
@@ -40,9 +40,20 @@ var dict = {
 
   	// What is Checkin+ ?
   	'Checkin+ is little helper activity report, regardless of how much human activity is, Checkin+ can help you save a lot of human volunteers, so that your activities are no longer running around in circles': {
-    	zhtw: 'Checkin+ 是活動報到小助手，不論是多少人的活動，Checkin+ 都可以幫你節省大量的人力志工，讓您的活動不再手忙腳亂',
+    	zhtw: '・Checkin+ 是活動報到小助手，不論多少人的活動，Checkin+ 都可以幫你節省大量的人力，讓您的活動不再手忙腳亂',
     	en: 'Checkin+ is little helper activity report, regardless of how much human activity is, Checkin+ can help you save a lot of human volunteers, so that your activities are no longer running around in circles'
   	},
+
+    'Checkin + is the cloud communications assistant, APP cloud-free online video conferencing, as well as free Internet phone service switch office': {
+      zhtw: '・Checkin+ 是雲端通訊小助手，提供雲端視訊線上會議，不需安裝App和交換機，可和辦公室網路電話互連的服務',
+      en: 'Checkin + is the cloud communications assistant, APP cloud-free online video conferencing, as well as free Internet phone service switch office'
+    },
+
+    'Checkin + is again marketing assistant, to help you quickly Activities statistics, real-time marketing, remarketing take forward, combined with cross-industry': {
+      zhtw: '・Checkin+ 是再次行銷小助手，快速協助您活動內容統計、即時行銷、再行銷推展及異業結合',
+      en: 'Checkin + is again marketing assistant, to help you quickly Activities statistics, real-time marketing, remarketing take forward, combined with cross-industry'
+    },
+
   	'Generating statistics': {
     	zhtw: '一鍵產生統計表',
     	en: 'Generating statistics'
@@ -74,7 +85,7 @@ var dict = {
     	en: 'How to work with you?'
   	},
   	'Checkin+ will send someone to the site to help you install the system, six minutes to complete the installation. Just write down a single appointment, the person immediately and contact you': {
-    	zhtw: 'Checkin+ 會派專人到現場協助您安裝系統，六分鐘就能完成安裝。只要寫下預約單，專人立即和您聯絡',
+    	zhtw: 'Checkin+ 會派專人到現場協助您安裝『簽報到服務』，您無須準備任何設備，六分鐘就能安裝完成。有活動需求，只要寫下預約單，專人立即和您聯絡',
     	en: 'Checkin+ will send someone to the site to help you install the system, six minutes to complete the installation. Just write down a single appointment, the person immediately and contact you'
   	},
   	'Fill a single appointment': {
@@ -96,9 +107,21 @@ var dict = {
     	en: 'What can also help you?'
   	},
   	"Checkin+ hope in addition to saving you hours of manpower, but also that you make more statistical analysis and online services, so you'll know exactly activity effectiveness, convenience and participants for further interaction": {
-    	zhtw: 'Checkin+ 希望除了節省您的人力時間，還可以為您做更多統計分析和線上服務，讓您清楚知道活動效益，便捷和與會者做進一步的互動',
+    	zhtw: '・Checkin+ 希望除了節省您的人力時間，還可以為您做更多統計分析和線上服務，讓您清楚知道活動效益，便捷和與會者做進一步的互動',
     	en: "Checkin+ hope in addition to saving you hours of manpower, but also that you make more statistical analysis and online services, so you'll know exactly activity effectiveness, convenience and participants for further interaction"
   	},
+    "Checkin + office or exhibition has a free APP instant cloud video conferencing services and free exchange of phone system that allows you to go with a customer service marketing": {
+      zhtw: '・Checkin+ 擁有的即時雲端視訊會議服務，不用安裝App和交換機，就能連上會展或辦公室的電話系統，讓您客服行銷帶著走',
+      en: "Checkin + office or exhibition has a free APP instant cloud video conferencing services and free exchange of phone system that allows you to go with a customer service marketing"
+    },
+     "Checkin + provides cloud private cloud system can be used for household activities can be a complicated set Free Plug": {
+      zhtw: '・Checkin+ 提供雲端私有雲系統，可家用可活動用，一插即用免繁雜設定',
+      en: "Checkin + provides cloud private cloud system can be used for household activities can be a complicated set Free Plug"
+    },
+
+
+
+
   	'Questionnaire': {
     	zhtw: '提問卷',
     	en: 'Questionnaire'
@@ -124,7 +147,7 @@ var dict = {
     	en: 'Conferences have always queuing up for admission Well? Flexible expansion station sign, so you can increase depending on the number of check-in stations, so that participants can fast track into the hall, no longer have to queue at the door card'
   	},
   	'No network can immediately work': {
-    	zhtw: '不用網路就能立刻作業',
+    	zhtw: '不用外連網路也能立即作業',
     	en: 'No network can immediately work'
   	},
   	'The web site is not good, but also to complete the sign thing? Checkin+ No problem, our system can communicate with each other, so even if there is no network can be completed sign': {
@@ -132,11 +155,11 @@ var dict = {
     	en: 'The web site is not good, but also to complete the sign thing? Checkin+ No problem, our system can communicate with each other, so even if there is no network can be completed sign'
   	},
   	'Private Cloud Share': {
-    	zhtw: '私有雲分享',
+    	zhtw: '私有雲資料儲存及分享',
     	en: 'Private Cloud Share'
   	},
   	'Only participants can see the file, you use packaged private cloud up!': {
-    	zhtw: '只有與會者才能看到的文件，就用私有雲打包起來吧！',
+    	zhtw: '只有與會者才能看到的文件，就用私有雲打包起來吧！Checkin+ 提供雲端私有雲系統及方便上手的雲端硬碟，只要用usb連結在您的網路路由器或Checkin+主機上，馬上即時分享儲存檔案，一插即用免繁雜設定，家用商用一個雲端硬碟全搞定!',
     	en: 'Only participants can see the file, you use packaged private cloud up!'
   	},
   	'Rapid exchange business cards': {
@@ -151,18 +174,53 @@ var dict = {
     	zhtw: '加值數據服務',
     	en: 'Value-added data services'
   	},
-  	'Big data statistical analysis, opinion surveys behavior analysis, marketing forecasting analysis, customer attribute points west, supporting marketing programs, integrating exhibitors moving hot line data analysis. Checkin+ gives you precise attack next!': {
-    	zhtw: '大數據資料統計分析、意見調查行為分析、行銷預測分析、客戶屬性分西、行銷配套方案、整合參展動線熱點數據分析。Checkin+ 讓您精準出擊下一步！',
-    	en: 'Big data statistical analysis, opinion surveys behavior analysis, marketing forecasting analysis, customer attribute points west, supporting marketing programs, integrating exhibitors moving hot line data analysis. Checkin+ gives you precise attack next!'
-  	},
-  	'Exhibition co-periphery good': {
-    	zhtw: '會展週邊共好',
-    	en: 'Exhibition co-periphery good'
-  	},
-  	'Valid data marketing programs: Registration of participants tickets, discount hotel reservations, convention surrounding shopping, dining, entertainment, transportation, restaurants and other services supporting the integration of communication, once you are contracted out!': {
-    	zhtw: '有效數據行銷方案：報到參加者機票、飯店訂房折扣、會展週邊購物、餐飲、娛樂、交通、飯店通訊整合等服務配套，一次包給您！',
-    	en: 'Valid data marketing programs: Registration of participants tickets, discount hotel reservations, convention surrounding shopping, dining, entertainment, transportation, restaurants and other services supporting the integration of communication, once you are contracted out!'
-  	},
+  'Big data statistical analysis, opinion surveys behavior analysis, marketing forecasting analysis, customer attribute points west, supporting marketing programs, integrating exhibitors moving hot line data analysis. Checkin+ gives you precise attack next!': {
+      zhtw: '大數據資料統計分析、意見調查行為分析、行銷預測分析、客戶屬性分析、行銷配套方案、整合參展動線熱點數據分析。Checkin+ 讓您精準出擊下一步！',
+      en: 'Big data statistical analysis, opinion surveys behavior analysis, marketing forecasting analysis, customer attribute points west, supporting marketing programs, integrating exhibitors moving hot line data analysis. Checkin+ gives you precise attack next!'
+    },
+    'Exhibition co-periphery good': {
+      zhtw: '會展週邊共好',
+      en: 'Exhibition co-periphery good'
+    },
+    'Valid data marketing programs: Registration of participants tickets, discount hotel reservations, convention surrounding shopping, dining, entertainment, transportation, restaurants and other services supporting the integration of communication, once you are contracted out!': {
+      zhtw: '有效數據行銷方案：報到參加者機票、飯店訂房折扣、會展週邊購物、餐飲、娛樂、交通、飯店通訊整合等服務配套，一次包給您！',
+      en: 'Valid data marketing programs: Registration of participants tickets, discount hotel reservations, convention surrounding shopping, dining, entertainment, transportation, restaurants and other services supporting the integration of communication, once you are contracted out!'
+    },
+// new
+    'A variety of ways to sign in': {
+      zhtw: '多樣的簽報到方式',
+      en: 'A variety of ways to sign in'
+    },
+    'All processes, tables, pictures can be completely in accordance with the activity of the unit demand customization, whether you use the QR code, phone number, account number, RFID, NFC ways to report, we can report customization process and ways to make your event smoother': {
+      zhtw: '所有流程、表格、畫面可完全依照活動單位需求客製化，不論您用QR code、手機號碼、會員編號、RFID、NFC 何種方式報到，我們都能客製化流程及報到方式，讓您的活動更加順暢！',
+      en: 'All processes, tables, pictures can be completely in accordance with the activity of the unit demand customization, whether you use the QR code, phone number, account number, RFID, NFC ways to report, we can report customization process and ways to make your event smoother'
+    },
+    'Cloud conferencing': {
+      zhtw: '雲端視訊會議',
+      en: 'Cloud conferencing'
+    },
+      'Designed to adjust the smoothness of the three places multiparty video conferencing connections, multi-party voice conference connections, synchronize the desktop sharing presentations, multi-group messages, communications peripheral integration across the Checkin + service.': {
+      zhtw: '專為兩岸三地通訊設計，多方視訊會議連線、多方語音會議連線、同步簡報桌面分享、多方群組訊息、週邊通訊整合，Checkin+都能順暢的調節!',
+      en: 'Designed to adjust the smoothness of the three places multiparty video conferencing connections, multi-party voice conference connections, synchronize the desktop sharing presentations, multi-group messages, communications peripheral integration across the Checkin + service.'
+    },
+    'Our customers enjoy a full range of rental model, users connect free, meeting invitation e-mail message, web page click Quick Participants without logging sites and APP-stop service': {
+      zhtw: '我們的客戶享有全方位租賃模式、用戶連線免費、訊息郵件邀請會議、網頁點擊快速與會，是無需登入網站與APP的一條龍服務',
+      en: 'Our customers enjoy a full range of rental model, users connect free, meeting invitation e-mail message, web page click Quick Participants without logging sites and APP-stop service'
+    },
+
+  'Drive switch telephone service': {
+      zhtw: '雲端交換機電話服務',
+      en: 'Drive switch telephone service'
+    },
+
+  'You no longer have to purchase hardware in the office of the switch, designed to adjust the smoothness of the three places and instant customer service office and exhibition phone connection, customers or colleagues call ext can be directly transferred to your mobile phone, home country Free telephone charges outside to answer the call, come contact, Checkin + gives you the most preferential tariff scheme': {
+      zhtw: '您再也不用為辦公室購置硬體交換機了，專為兩岸三地電話連線設計，能順暢地調節辦公室、即時客服和會展。客戶或同事打電話分機就可直接轉接到您的手機上，國內國外接聽電話免電話費，快來洽詢，Checkin+ 給您最優惠的資費方案!',
+      en: 'You no longer have to purchase hardware in the office of the switch, designed to adjust the smoothness of the three places and instant customer service office and exhibition phone connection, customers or colleagues call ext can be directly transferred to your mobile phone, home country Free telephone charges outside to answer the call, come contact, Checkin + gives you the most preferential tariff scheme'
+    },
+
+
+    // new
+  	
 
   	// 聽聽用戶怎麼說
   	'Listen to how users say': {
@@ -195,9 +253,9 @@ var dict = {
   	},
 
   	// footer
-  	'Faithtech Co., Ltd.': {
+  	'Faith Tech Corp.': {
     	zhtw: '誠義資訊股份有限公司',
-    	en: 'Faithtech Co., Ltd.'
+    	en: 'Faith Tech Corp.'
   	},
   	'Tel:': {
     	zhtw: '電話：',
