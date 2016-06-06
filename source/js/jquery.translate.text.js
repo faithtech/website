@@ -17,8 +17,8 @@ var dict = {
     	en: 'About'
   	},
   	'Lang': {
-    	zhtw: '語言',
-    	en: 'Lang'
+    	zhtw: 'English',
+    	en: '正體中文'
   	},
   	// slogan 要精簡
   	'・Exhibition leader': {
