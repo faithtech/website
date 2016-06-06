@@ -3,10 +3,30 @@
 	{
 		"selected_items":
 		[
+			[
+				"u",
+				"ul	Tag"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 25551,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/js/jquery.translate.text.js",
+			"settings":
+			{
+				"buffer_size": 17081,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -53,6 +73,12 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/ginger/Documents/project/Checkin+/website",
+		"/Users/ginger/Documents/project/Checkin+/website/public",
+		"/Users/ginger/Documents/project/Checkin+/website/public/js",
+		"/Users/ginger/Documents/project/Checkin+/website/source",
+		"/Users/ginger/Documents/project/Checkin+/website/source/js",
+		"/Users/ginger/Documents/project/Checkin+/website/source/sass"
 	],
 	"file_history":
 	[
@@ -92,7 +118,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -106,6 +132,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"語言",
+			"小助手",
+			"雲端",
+			"不用",
+			"text-center",
+			"p",
+			"text-center",
+			"center",
+			"text-center",
 			"faith ",
 			"footer",
 			"model",
@@ -128,8 +163,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11618,
+								11618
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2902.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/js/jquery.translate.text.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 10.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

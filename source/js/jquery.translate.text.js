@@ -115,7 +115,7 @@ var dict = {
       en: "Checkin + office or exhibition has a free APP instant cloud video conferencing services and free exchange of phone system that allows you to go with a customer service marketing"
     },
      "Checkin + provides cloud private cloud system can be used for household activities can be a complicated set Free Plug": {
-      zhtw: '・Checkin+ 提供雲端私有雲系統，可家用可活動用，一插即用免繁雜設定',
+      zhtw: '・Checkin+ 雲端私有雲資料儲存及分享系統，可家用可活動用，一插即用免繁雜設定',
       en: "Checkin + provides cloud private cloud system can be used for household activities can be a complicated set Free Plug"
     },
 
