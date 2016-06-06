@@ -1,0 +1,215 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pi",
+		"selected_items":
+		[
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"",
+				"HTML: Encode Special Characters"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ginger/Documents/project/Checkin+/website/source/js/jquery.translate.text.js",
+		"/Users/ginger/Documents/project/Checkin+/website/index.html",
+		"/Users/ginger/Documents/checkin/.git/COMMIT_EDITMSG",
+		"/Users/ginger/Documents/checkin/source/js/jquery.translate.text.js",
+		"/Users/ginger/Documents/checkin/index.html",
+		"/Users/ginger/Documents/cheesbe-checkin-101fdb2fd36f/source/js/main.js",
+		"/Users/ginger/Documents/cheesbe-checkin-101fdb2fd36f/gulpfile.js",
+		"/Users/ginger/Documents/cheesbe-checkin-101fdb2fd36f/source/sass/core/reset.sass",
+		"/Users/ginger/Documents/cheesbe-checkin-101fdb2fd36f/source/js/jquery.translate.text.js",
+		"/Users/ginger/Documents/cheesbe-checkin-101fdb2fd36f/index.html",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-41f239a54f36/index.html",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b9644740b7e3/source/sass/layout/header.sass",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b9644740b7e3/source/sass/core/grid.sass",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b9644740b7e3/index.html",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b9644740b7e3/source/sass/core/component.sass",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b790eb7d4cb7/source/js/main.js",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b790eb7d4cb7/source/sass/core/grid.sass",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b790eb7d4cb7/source/sass/core/typography.sass",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b790eb7d4cb7/source/sass/core/color.sass",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b790eb7d4cb7/source/sass/core/component.sass",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b790eb7d4cb7/source/sass/layout/header.sass",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b790eb7d4cb7/source/sass/layout/footer.sass",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b790eb7d4cb7/gulpfile.js",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b790eb7d4cb7/source/sass/main.sass",
+		"/Users/ginger/Documents/進行中的專案/誠義資訊/cheesbe-checkin-b790eb7d4cb7/index.html",
+		"/Users/ginger/Documents/進行中的專案/fb message/modelingirls/index.html",
+		"/Users/ginger/Documents/進行中的專案/fb message/modelingirls/privacy.html",
+		"/Users/ginger/Documents/有物報告Careher/sp_EDM/mailchimp 測試/key points_Ginger test_scale (2).html",
+		"/Users/ginger/Documents/有物報告Careher/sp_EDM/mailchimp 測試/key points_Ginger test_scale.html",
+		"/Users/ginger/Documents/有物報告Careher/sp_EDM/mailchimp 測試/key points_Ginger test (2).html",
+		"/Users/ginger/Documents/有物報告Careher/sp_EDM/mailchimp 測試/key points_Ginger test_scale (1).html",
+		"/Users/ginger/Documents/有物報告Careher/sp_EDM/mailchimp 測試/key points_Ginger test_nosacel.html",
+		"/Users/ginger/Documents/sublime/TEST.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"faith ",
+			"footer",
+			"model",
+			"寄信預約",
+			"mcnTextContent"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
