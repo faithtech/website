@@ -30,11 +30,11 @@ var dict = {
     	en: '・Fully functional'
   	},
   	'・More smoothly': {
-    	zhtw: '・雲端通訊交換機',
+    	zhtw: '・雲端視訊及電話',
     	en: '・More smoothly'
   	},
   	'Send Order': {
-    	zhtw: '寄信預約',
+    	zhtw: '辦活動服務預約',
     	en: 'Send Order'
   	},
 
@@ -45,29 +45,29 @@ var dict = {
   	},
 
     'Checkin + is the cloud communications assistant, APP cloud-free online video conferencing, as well as free Internet phone service switch office': {
-      zhtw: '・Checkin+ 是雲端通訊小助手，提供雲端視訊線上會議，不需安裝App和交換機，可和辦公室網路電話互連的服務',
+      zhtw: '・Checkin+ 是雲端通訊小助手，提供雲端視訊線上會議及無交換機網路電話服務，兩岸三地通話順暢，接國外電話免電話費，客戶聯繫一把罩',
       en: 'Checkin + is the cloud communications assistant, APP cloud-free online video conferencing, as well as free Internet phone service switch office'
     },
 
     'Checkin + is again marketing assistant, to help you quickly Activities statistics, real-time marketing, remarketing take forward, combined with cross-industry': {
-      zhtw: '・Checkin+ 是再次行銷小助手，快速協助您活動內容統計、即時行銷、再行銷推展及異業結合',
+      zhtw: '・Checkin+ 是再次行銷小助手，快速協助您統計活動內容、即時行銷、數據分析，更協助您的生意異業結合',
       en: 'Checkin + is again marketing assistant, to help you quickly Activities statistics, real-time marketing, remarketing take forward, combined with cross-industry'
     },
 
-  	'Generating statistics': {
-    	zhtw: '一鍵產生統計表',
-    	en: 'Generating statistics'
+  	'Cloud Communication': {
+    	zhtw: '雲端通訊',
+    	en: 'Cloud Communication'
   	},
-  	'There are sign-in sheet to render an account, a key production statistics, end of the event immediately reimbursement': {
-    	zhtw: '有簽到表才能報帳，一鍵產統計表，活動結束立刻報帳',
-    	en: 'There are sign-in sheet to render an account, a key production statistics, end of the event immediately reimbursement'
+  	'Video Cloud provides, section fee phone system that allows you to communicate with customers without borders': {
+    	zhtw: '提供雲端視訊、節費電話系統，讓您與客戶溝通無國界',
+    	en: 'Video Cloud provides, section fee phone system that allows you to communicate with customers without borders'
   	},
   	'Save manpower': {
     	zhtw: '節省人力',
     	en: 'Save manpower'
   	},
   	'With the most streamlined manpower, so that a large number of participants complete report': {
-    	zhtw: '用最精簡的人力，讓大量的與會者完成報到',
+    	zhtw: '用最精簡的人力，讓大量的與會者完成報到，一鍵產生所有活動統計報表',
     	en: 'With the most streamlined manpower, so that a large number of participants complete report'
   	},
   	'ReMarketing': {
@@ -75,13 +75,13 @@ var dict = {
     	en: 'ReMarketing'
   	},
   	'Allowing you to quickly and accurate interactive and participants': {
-    	zhtw: '讓您快速而精準的和與會者互動',
+    	zhtw: '客製化流程、即時簡訊及郵件、現場互動社群，讓您快速而精準給予與會者貼心的服務',
     	en: 'Allowing you to quickly and accurate interactive and participants'
   	},
 
   	// Checkin+ 如何和您合作？
   	'How to work with you?': {
-    	zhtw: '如何和您合作？',
+    	zhtw: '如何協助您辦活動更省事？',
     	en: 'How to work with you?'
   	},
   	'Checkin+ will send someone to the site to help you install the system, six minutes to complete the installation. Just write down a single appointment, the person immediately and contact you': {
@@ -107,7 +107,7 @@ var dict = {
     	en: 'What can also help you?'
   	},
   	"Checkin+ hope in addition to saving you hours of manpower, but also that you make more statistical analysis and online services, so you'll know exactly activity effectiveness, convenience and participants for further interaction": {
-    	zhtw: '・Checkin+ 希望除了節省您的人力時間，還可以為您做更多統計分析和線上服務，讓您清楚知道活動效益，便捷和與會者做進一步的互動',
+    	zhtw: '・Checkin+ 希望除了節省您的人力時間，還可以為您做更多統計分析和線上服務，讓您清楚知道活動效益，快速和與會者做進一步的互動',
     	en: "Checkin+ hope in addition to saving you hours of manpower, but also that you make more statistical analysis and online services, so you'll know exactly activity effectiveness, convenience and participants for further interaction"
   	},
     "Checkin + office or exhibition has a free APP instant cloud video conferencing services and free exchange of phone system that allows you to go with a customer service marketing": {
@@ -115,7 +115,7 @@ var dict = {
       en: "Checkin + office or exhibition has a free APP instant cloud video conferencing services and free exchange of phone system that allows you to go with a customer service marketing"
     },
      "Checkin + provides cloud private cloud system can be used for household activities can be a complicated set Free Plug": {
-      zhtw: '・Checkin+ 雲端私有雲資料儲存及分享系統，可家用可活動用，一插即用免繁雜設定',
+      zhtw: '・Checkin+ 私有雲資料儲存及分享系統，可家用可活動用，一插即用免繁雜設定',
       en: "Checkin + provides cloud private cloud system can be used for household activities can be a complicated set Free Plug"
     },
 
@@ -135,7 +135,7 @@ var dict = {
     	en: 'Cloud attendance, conference materials made immediately'
   	},
   	'Too late to participate or not participate in the participants, with the online portal sign, just like online check of the aircraft in. Reached the scene do not line up, and immediately enter the venue, the line can also be made to handouts and video files': {
-    	zhtw: '來不及參加，或是不能參加的與會者，用線上 portal 簽到，就有如飛機的線上 check in。達到現場不用排隊，立刻進會場，線上也能取得到講義和影音文件',
+    	zhtw: '件來不及參加，或是不能參加的與會者，使用線上遠端簽到即可加入會議，不僅可與現場與會者互動，觀看視訊，也能線上取得文件及講義',
     	en: 'Too late to participate or not participate in the participants, with the online portal sign, just like online check of the aircraft in. Reached the scene do not line up, and immediately enter the venue, the line can also be made to handouts and video files'
   	},
   	'Flexible expansion station': {
@@ -151,7 +151,7 @@ var dict = {
     	en: 'No network can immediately work'
   	},
   	'The web site is not good, but also to complete the sign thing? Checkin+ No problem, our system can communicate with each other, so even if there is no network can be completed sign': {
-    	zhtw: '現場網路不好，也能完成簽到嘛？Checkin+ 沒問題，我們系統可以互相通訊，所以即使沒有網路也能完成簽到',
+    	zhtw: '場網路不良或無網路連線，也能完成簽到嗎？Checkin+ 沒問題，我的服務裝置可以無線同步通訊，所以即使沒有外連網路也能完成簽到',
     	en: 'The web site is not good, but also to complete the sign thing? Checkin+ No problem, our system can communicate with each other, so even if there is no network can be completed sign'
   	},
   	'Private Cloud Share': {
@@ -200,11 +200,11 @@ var dict = {
       en: 'Cloud conferencing'
     },
       'Designed to adjust the smoothness of the three places multiparty video conferencing connections, multi-party voice conference connections, synchronize the desktop sharing presentations, multi-group messages, communications peripheral integration across the Checkin + service.': {
-      zhtw: '專為兩岸三地通訊設計，多方視訊會議連線、多方語音會議連線、同步簡報桌面分享、多方群組訊息、週邊通訊整合，Checkin+都能順暢的調節!',
+      zhtw: '專為兩岸三地通訊設計，多方視訊會議連線、多方語音會議連線、同步簡報桌面分享、多方群組訊息、週邊通訊整合，Checkin+都能順暢的連結!',
       en: 'Designed to adjust the smoothness of the three places multiparty video conferencing connections, multi-party voice conference connections, synchronize the desktop sharing presentations, multi-group messages, communications peripheral integration across the Checkin + service.'
     },
     'Our customers enjoy a full range of rental model, users connect free, meeting invitation e-mail message, web page click Quick Participants without logging sites and APP-stop service': {
-      zhtw: '我們的客戶享有全方位租賃模式、用戶連線免費、訊息郵件邀請會議、網頁點擊快速與會，是無需登入網站與APP的一條龍服務',
+      zhtw: '我們的客戶享有全方位租賃模式、客戶用戶連線免費、訊息郵件邀請會議、網頁點擊快速與會，給您雲端通訊的一條龍服務',
       en: 'Our customers enjoy a full range of rental model, users connect free, meeting invitation e-mail message, web page click Quick Participants without logging sites and APP-stop service'
     },
 
@@ -214,9 +214,19 @@ var dict = {
     },
 
   'You no longer have to purchase hardware in the office of the switch, designed to adjust the smoothness of the three places and instant customer service office and exhibition phone connection, customers or colleagues call ext can be directly transferred to your mobile phone, home country Free telephone charges outside to answer the call, come contact, Checkin + gives you the most preferential tariff scheme': {
-      zhtw: '您再也不用為辦公室購置硬體交換機了，專為兩岸三地電話連線設計，能順暢地調節辦公室、即時客服和會展。客戶或同事打電話分機就可直接轉接到您的手機上，國內國外接聽電話免電話費，快來洽詢，Checkin+ 給您最優惠的資費方案!',
+      zhtw: '您再也不用為辦公室購置硬體交換機了，專為兩岸三地電話連線設計，能順暢地幫您聯繫辦公室夥伴、即時客服和會展人員。客戶或同事打電話分機就可直接轉接到您的手機上，國內國外接聽電話免電話費。快來洽詢，Checkin+ 給您最優惠的資費方案!',
       en: 'You no longer have to purchase hardware in the office of the switch, designed to adjust the smoothness of the three places and instant customer service office and exhibition phone connection, customers or colleagues call ext can be directly transferred to your mobile phone, home country Free telephone charges outside to answer the call, come contact, Checkin + gives you the most preferential tariff scheme'
     },
+
+ 'A key generating statistics': {
+      zhtw: '一鍵產生統計表',
+      en: 'A key generating statistics'
+    },
+  'There are sign-in sheet to render an account, a key production statistics, end of the event immediately reimbursement': {
+      zhtw: '有簽到表才能報帳，一鍵產統計表，活動結束立刻報帳',
+      en: 'There are sign-in sheet to render an account, a key production statistics, end of the event immediately reimbursement'
+    },
+
 
 
     // new
