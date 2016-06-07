@@ -127,7 +127,7 @@ var dict = {
     	en: 'Questionnaire'
   	},
   	'Without pen and paper, you can ask the online satisfaction questionnaire so that effective recovery up to a hundred percent': {
-    	zhtw: '不用紙筆，線上就能詢問滿意度，讓有效問卷回收高達百分百',
+    	zhtw: '不用紙筆，線上就能詢問滿意度，讓有效問卷回收率高達百分百',
     	en: 'Without pen and paper, you can ask the online satisfaction questionnaire so that effective recovery up to a hundred percent'
   	},
   	'Cloud attendance, conference materials made immediately': {
@@ -135,7 +135,7 @@ var dict = {
     	en: 'Cloud attendance, conference materials made immediately'
   	},
   	'Too late to participate or not participate in the participants, with the online portal sign, just like online check of the aircraft in. Reached the scene do not line up, and immediately enter the venue, the line can also be made to handouts and video files': {
-    	zhtw: '件來不及參加，或是不能參加的與會者，使用線上遠端簽到即可加入會議，不僅可與現場與會者互動，觀看視訊，也能線上取得文件及講義',
+    	zhtw: '來不及參加，或是不能參加的與會者，使用線上遠端簽到即可加入會議，不僅可與現場與會者互動，觀看視訊，也能線上取得文件及講義',
     	en: 'Too late to participate or not participate in the participants, with the online portal sign, just like online check of the aircraft in. Reached the scene do not line up, and immediately enter the venue, the line can also be made to handouts and video files'
   	},
   	'Flexible expansion station': {
@@ -151,7 +151,7 @@ var dict = {
     	en: 'No network can immediately work'
   	},
   	'The web site is not good, but also to complete the sign thing? Checkin+ No problem, our system can communicate with each other, so even if there is no network can be completed sign': {
-    	zhtw: '現場網路不良或無網路連線，也能完成簽到嗎？Checkin+ 沒問題，我的服務裝置可以無線同步通訊，所以即使沒有外連網路也能完成簽到',
+    	zhtw: '現場信號不良或無網路連線，也能完成簽到嗎？Checkin+ 運作沒問題，我們的服務裝置可以無線同步通訊，所以即使沒有外連網路也能完成簽報到及檔案分享、私有社群等',
     	en: 'The web site is not good, but also to complete the sign thing? Checkin+ No problem, our system can communicate with each other, so even if there is no network can be completed sign'
   	},
   	'Private Cloud Share': {
@@ -200,7 +200,7 @@ var dict = {
       en: 'Cloud conferencing'
     },
       'Designed to adjust the smoothness of the three places multiparty video conferencing connections, multi-party voice conference connections, synchronize the desktop sharing presentations, multi-group messages, communications peripheral integration across the Checkin + service.': {
-      zhtw: '專為兩岸三地通訊設計，多方視訊會議連線、多方語音會議連線、同步簡報桌面分享、多方群組訊息、週邊通訊整合，Checkin+都能順暢的連結!',
+      zhtw: '專為兩岸三地通訊設計，多方視訊會議連線、多方語音會議連線、同步簡報桌面分享、多方群組訊息、週邊通訊整合，Checkin+都能順暢的連結!我們的客戶享有全方位租賃模式、客戶用戶連線免費、訊息郵件邀請會議、網頁點擊快速與會，給您雲端通訊的一條龍服務',
       en: 'Designed to adjust the smoothness of the three places multiparty video conferencing connections, multi-party voice conference connections, synchronize the desktop sharing presentations, multi-group messages, communications peripheral integration across the Checkin + service.'
     },
     'Our customers enjoy a full range of rental model, users connect free, meeting invitation e-mail message, web page click Quick Participants without logging sites and APP-stop service': {
@@ -223,7 +223,7 @@ var dict = {
       en: 'A key generating statistics'
     },
   'There are sign-in sheet to render an account, a key production statistics, end of the event immediately reimbursement': {
-      zhtw: '有簽到表才能報帳，一鍵產統計表，活動結束立刻報帳',
+      zhtw: '一鍵產生與會者活動參與統計表，無論簽名或時間統計，立即印出或傳輸',
       en: 'There are sign-in sheet to render an account, a key production statistics, end of the event immediately reimbursement'
     },
 
