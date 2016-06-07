@@ -151,7 +151,7 @@ var dict = {
     	en: 'No network can immediately work'
   	},
   	'The web site is not good, but also to complete the sign thing? Checkin+ No problem, our system can communicate with each other, so even if there is no network can be completed sign': {
-    	zhtw: '場網路不良或無網路連線，也能完成簽到嗎？Checkin+ 沒問題，我的服務裝置可以無線同步通訊，所以即使沒有外連網路也能完成簽到',
+    	zhtw: '現場網路不良或無網路連線，也能完成簽到嗎？Checkin+ 沒問題，我的服務裝置可以無線同步通訊，所以即使沒有外連網路也能完成簽到',
     	en: 'The web site is not good, but also to complete the sign thing? Checkin+ No problem, our system can communicate with each other, so even if there is no network can be completed sign'
   	},
   	'Private Cloud Share': {
