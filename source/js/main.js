@@ -74,12 +74,16 @@ $(function(){
 			fromMonthSelect = document.getElementById('booking-from-month'),
 			fromMonth = fromMonthSelect.options[fromMonthSelect.selectedIndex].text,
 			fromDaySelect = document.getElementById('booking-from-day'),
+			activity_start_time = fromYear+fromMonth+fromDay,
+
 			fromDay = fromDaySelect.options[fromDaySelect.selectedIndex].text,
 			toYearSelect = document.getElementById('booking-to-year'),
 			toYear = toYearSelect.options[toYearSelect.selectedIndex].text,
 			toMonthSelect = document.getElementById('booking-to-month'),
 			toMonth = toMonthSelect.options[toMonthSelect.selectedIndex].text,
 			toDaySelect = document.getElementById('booking-to-day'),
+			activity_end_time = toYear+toMonth+toDay,
+
 			toDay = toDaySelect.options[toDaySelect.selectedIndex].text,
 			eventAdd = $('#booking-event-add').val(),
 			eventMembers = $('#booking-event-members').val(),
@@ -90,26 +94,22 @@ $(function(){
            	url: url,
 	       	data: {
 	       		name: name,
-	       		phone: phone,
-	       		email: email,
-				eventName: eventName,
-				fromYear: fromYear,
-				fromMonth: fromMonth,
-				fromDay: fromDay,
-				toYear: toYear,
-				toMonth: toMonth,
-				toDay: toDay,
-				eventAdd: eventAdd,
-				eventMembers: eventMembers,
-				other: other
+	       		telphone: phone,
+	       		activity_name: eventName,
+				activity_start_time: activity_start_time,
+				activity_end_time: activity_end_time,
+				activity_location: eventAdd,
+				activity_member_count: eventMembers,
+				note: other
 	       	},
            	dataType: 'json',
            	success: function(data){
-               	console.log('success');
+               	console.log(data.result);
++               $('#modal-booking').modal('hide');
                	$('#modal-success').modal('show');
            	},
-           	error: function(){
-           		console.log('error');
+           	error: function(data){
+           		console.log(data.msg);
            		$('#modal-booking').modal('hide');
            		$('#modal-error').modal('show');
            	}
