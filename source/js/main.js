@@ -69,18 +69,23 @@ $(function(){
 			phone = $('#booking-phone').val(),
 			email = $('#booking-email').val(),
 			eventName = $('#booking-event-name').val(),
+
 			fromYearSelect = document.getElementById('booking-from-year'),
 			fromYear = fromYearSelect.options[fromYearSelect.selectedIndex].text,
 			fromMonthSelect = document.getElementById('booking-from-month'),
 			fromMonth = fromMonthSelect.options[fromMonthSelect.selectedIndex].text,
 			fromDaySelect = document.getElementById('booking-from-day'),
 			fromDay = fromDaySelect.options[fromDaySelect.selectedIndex].text,
+			activity_start_time = fromYear+fromMonth+fromDay,
+
 			toYearSelect = document.getElementById('booking-to-year'),
 			toYear = toYearSelect.options[toYearSelect.selectedIndex].text,
 			toMonthSelect = document.getElementById('booking-to-month'),
 			toMonth = toMonthSelect.options[toMonthSelect.selectedIndex].text,
 			toDaySelect = document.getElementById('booking-to-day'),
 			toDay = toDaySelect.options[toDaySelect.selectedIndex].text,
+			activity_end_time = toYear+toMonth+toDay,
+
 			eventAdd = $('#booking-event-add').val(),
 			eventMembers = $('#booking-event-members').val(),
 			other = $('#booking-other').val();
@@ -90,26 +95,23 @@ $(function(){
            	url: url,
 	       	data: {
 	       		name: name,
-	       		phone: phone,
+	       		telphone: phone,
 	       		email: email,
-				eventName: eventName,
-				fromYear: fromYear,
-				fromMonth: fromMonth,
-				fromDay: fromDay,
-				toYear: toYear,
-				toMonth: toMonth,
-				toDay: toDay,
-				eventAdd: eventAdd,
-				eventMembers: eventMembers,
-				other: other
+				activity_name: eventName,
+				activity_start_time: activity_start_time,
+				activity_end_time: activity_end_time,
+				activity_location: eventAdd,
+				activity_member_count: eventMembers,
+				note: other
 	       	},
            	dataType: 'json',
            	success: function(data){
-               	console.log('success');
+               	console.log(data.result);
+               	$('#modal-booking').modal('hide');
                	$('#modal-success').modal('show');
            	},
            	error: function(){
-           		console.log('error');
+           		console.log(data.msg);
            		$('#modal-booking').modal('hide');
            		$('#modal-error').modal('show');
            	}
