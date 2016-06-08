@@ -110,7 +110,7 @@ $(function(){
                	$('#modal-booking').modal('hide');
                	$('#modal-success').modal('show');
            	},
-           	error: function(){
+           	error: function(data){
            		console.log(data.msg);
            		$('#modal-booking').modal('hide');
            		$('#modal-error').modal('show');
