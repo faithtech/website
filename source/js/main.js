@@ -69,22 +69,23 @@ $(function(){
 			phone = $('#booking-phone').val(),
 			email = $('#booking-email').val(),
 			eventName = $('#booking-event-name').val(),
+
 			fromYearSelect = document.getElementById('booking-from-year'),
 			fromYear = fromYearSelect.options[fromYearSelect.selectedIndex].text,
 			fromMonthSelect = document.getElementById('booking-from-month'),
 			fromMonth = fromMonthSelect.options[fromMonthSelect.selectedIndex].text,
 			fromDaySelect = document.getElementById('booking-from-day'),
+			fromDay = fromDaySelect.options[fromDaySelect.selectedIndex].text,
 			activity_start_time = fromYear+fromMonth+fromDay,
 
-			fromDay = fromDaySelect.options[fromDaySelect.selectedIndex].text,
 			toYearSelect = document.getElementById('booking-to-year'),
 			toYear = toYearSelect.options[toYearSelect.selectedIndex].text,
 			toMonthSelect = document.getElementById('booking-to-month'),
 			toMonth = toMonthSelect.options[toMonthSelect.selectedIndex].text,
 			toDaySelect = document.getElementById('booking-to-day'),
+			toDay = toDaySelect.options[toDaySelect.selectedIndex].text,
 			activity_end_time = toYear+toMonth+toDay,
 
-			toDay = toDaySelect.options[toDaySelect.selectedIndex].text,
 			eventAdd = $('#booking-event-add').val(),
 			eventMembers = $('#booking-event-members').val(),
 			other = $('#booking-other').val();
@@ -95,7 +96,8 @@ $(function(){
 	       	data: {
 	       		name: name,
 	       		telphone: phone,
-	       		activity_name: eventName,
+	       		email: email,
+				activity_name: eventName,
 				activity_start_time: activity_start_time,
 				activity_end_time: activity_end_time,
 				activity_location: eventAdd,
@@ -105,7 +107,7 @@ $(function(){
            	dataType: 'json',
            	success: function(data){
                	console.log(data.result);
-+               $('#modal-booking').modal('hide');
+               	$('#modal-booking').modal('hide');
                	$('#modal-success').modal('show');
            	},
            	error: function(data){
