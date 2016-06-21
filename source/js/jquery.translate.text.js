@@ -12,6 +12,10 @@ var dict = {
     	zhtw: '加值服務',
     	en: 'Our Services'
   	},
+  	'Pricing': {
+    	zhtw: '價格表',
+    	en: 'Pricing'
+  	},
   	'About': {
     	zhtw: '關於我們',
     	en: 'About'

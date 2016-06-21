@@ -6,6 +6,14 @@
 	&:hover
 		color: #fff
 
+.btn-default
+	color: $middle-gray
+	border: 1px solid $gray
+	&:hover
+		color: $dark-gray
+		border-color: $middle-gray
+		background-color: $light
+
 .btn-primary
 	background-color: $primary
 	&:hover
@@ -22,6 +30,13 @@
 	line-height: 40px
 	padding: 0
 	border-radius: 50%
+
+.btn-bordered	
+	font-size: 20px
+	padding: .7rem 1.7rem
+	background-color: transparent
+	&.btn-white
+		border: 1px solid #fff
 
 .btn-xl
 	width: 190px
@@ -106,3 +121,37 @@ textarea.form-control
 			p
 				font-size: 14px
 				color: #969696
+
+.banner
+	padding: 4rem 0
+	background-image: linear-gradient(to left, #83e9f9, #00d6f8 25%, #00adee)
+	color: #fff
+	h2
+		font-size: 40px
+		font-weight: bold
+	p
+		color: #001651
+		font-size: 16px
+		font-weight: bold
+
+.table	
+	&.table-middle
+		td
+			vertical-align: middle
+	&.table-pricing
+		border-color: #f2f2f2
+		th, td
+			border-color: #f2f2f2
+			border-width: 3px
+		.active
+			th, td
+				background-color: #f2f2f2
+
+.table-responsive[data-pattern="priority-columns"]
+	border-color: #f2f2f2
+	border-radius: 0
+	border-width: 3px
+
+.box-light
+	background-color: #f2f2f2
+	padding: 2rem 4rem
