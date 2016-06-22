@@ -16,8 +16,11 @@
 
 .btn-primary
 	background-color: $primary
+	border: 1px solid $primary
+	color: #fff
 	&:hover
 		background-color: darken($primary, 10%)
+		color: #fff
 
 .btn-secondary
 	background-color: $secondary
@@ -71,6 +74,9 @@
 
 .container-620
 	max-width: 620px
+
+.container-700
+	max-width: 700px
 
 .border-dashed-center
 	height: 1px
@@ -139,10 +145,15 @@ textarea.form-control
 		td
 			vertical-align: middle
 	&.table-pricing
-		border-color: #f2f2f2
+		border-color: #e9e9e9
 		th, td
-			border-color: #f2f2f2
+			border-color: #e9e9e9
 			border-width: 3px
+			text-align: center
+			&.text-left
+				text-align: left
+				+sm
+					padding-left: 20px
 		.active
 			th, td
 				background-color: #f2f2f2
@@ -154,4 +165,7 @@ textarea.form-control
 
 .box-light
 	background-color: #f2f2f2
-	padding: 2rem 4rem
+	padding: 1rem
+	+sm
+		&.box-light-lg
+			padding: 2rem 4rem

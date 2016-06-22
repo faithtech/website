@@ -22,21 +22,23 @@ $(function(){
 	}
 
 	// jquery translate
-	var lang = window.navigator.userLanguage || window.navigator.language ;
-	var relang = lang.toLowerCase();
-	var getCookieLang = getCookie('cookieLang');
-	if(getCookieLang){
-		var translator = $('body').translate({lang: getCookieLang, t: dict});
-	}else if(relang === 'zh-tw' || relang === 'zh-cn'){
-		var translator = $('body').translate({lang: "zhtw", t: dict});
-	}else{
-		var translator = $('body').translate({lang: "en", t: dict});
+	window.onload = function(){
+		var lang = window.navigator.userLanguage || window.navigator.language ;
+		var relang = lang.toLowerCase();
+		var getCookieLang = getCookie('cookieLang');
+		if(getCookieLang){
+			var translator = $('body').translate({lang: getCookieLang, t: dict});
+		}else if(relang === 'zh-tw' || relang === 'zh-cn'){
+			var translator = $('body').translate({lang: "zhtw", t: dict});
+		}else{
+			var translator = $('body').translate({lang: "en", t: dict});
+		}
+		$('.btn-translate').on('click', function(){
+			var lang = $(this).attr('id');
+			translator.lang(lang);
+			setCookie('cookieLang', lang, 365);
+		});
 	}
-	$('.btn-translate').on('click', function(){
-		var lang = $(this).attr('id');
-		translator.lang(lang);
-		setCookie('cookieLang', lang, 365);
-	});
 
 	// nav-main
 	var mask = document.createElement('div');
@@ -117,4 +119,7 @@ $(function(){
            	}
         });    	
 	});
+
+	// pricing
+
 });

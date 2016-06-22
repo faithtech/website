@@ -12,9 +12,9 @@ var dict = {
     	zhtw: '加值服務',
     	en: 'Our Services'
   	},
-  	'Pricing': {
+  	'Price List': {
     	zhtw: '價格表',
-    	en: 'Pricing'
+    	en: 'Price List'
   	},
   	'About': {
     	zhtw: '關於我們',
@@ -356,5 +356,199 @@ var dict = {
     'Sorry,something has gone wrong, you may want to send a letter to service@faithtech.com.tw We will contact you as soon as possible! Thank you!': {
       	zhtw: '抱歉，出了一些問題，您可以先寄信到 service@faithtech.com.tw 我們會盡快和您聯絡！謝謝！',
       	en:'Sorry, something has gone wrong, you may want to send a letter to service@faithtech.com.tw We will contact you as soon as possible! Thank you!'
+    },
+
+    // pricing
+    'Hello, we offer a "rental model" and "value-added services," If you need more detailed instructions, please contact us': {
+      	zhtw: '您好，我們提供「租賃模式」和「加值服務」，如果您需要更詳細的說明，歡迎聯絡我們',
+      	en: 'Hello, we offer a "rental model" and "value-added services," If you need more detailed instructions, please contact us'
+    },
+    'Download Price List': {
+      	zhtw: '下載價格表',
+      	en: 'Download Price List'
+    },
+    'Or you can fill out "to do active service appointment" and that you will be contacted by the person': {
+      	zhtw: '或是您可以先填寫 『 辦活動服務預約 』會由專人和您聯絡',
+      	en: 'Or you can fill out "to do active service appointment" and that you will be contacted by the person'
+    },
+    'Leasing model': {
+      	zhtw: '租賃模式',
+      	en: 'Leasing model'
+    },
+    'Focus': {
+      	zhtw: '選特定列',
+      	en: 'Focus'
+    },
+    'Display all': {
+      	zhtw: '全部選項',
+      	en: 'Display all'
+    },
+    'Display': {
+      	zhtw: '選擇選項',
+      	en: 'Display'
+    },
+    'Number of people': {
+      	zhtw: '人數',
+      	en: 'Number of people'
+    },
+    'p': {
+      	zhtw: '人',
+      	en: 'p'
+    },
+    'p below': {
+      	zhtw: '人以下',
+      	en: 'p below'
+    },
+    'p up': {
+      	zhtw: '人以上',
+      	en: 'p up'
+    },
+    'plan': {
+      	zhtw: '方案',
+      	en: 'plan'
+    },
+    'NTD': {
+      	zhtw: '元',
+      	en: 'NTD'
+    },
+    'Project Valuation': {
+      	zhtw: '專案計價',
+      	en: 'Project Valuation'
+    },
+    'Tablet + holder (a)': {
+      	zhtw: '平板+支架(一部)',
+      	en: 'Tablet + holder (a)'
+    },
+    'An increase of 500NTD': {
+      	zhtw: '增加一部 500 元',
+      	en: 'An increase of 500NTD'
+    },
+    'Printing paper, $ 5 each': {
+      	zhtw: '列印紙張，每張 5 元',
+      	en: 'Printing paper, $ 5 each'
+    },
+    'Message sent, each 2 yuan per person': {
+      	zhtw: '訊息發送，每人每次 2 元',
+      	en: 'Message sent, each 2 yuan per person'
+    },
+    '(SMS, email)': {
+      	zhtw: '(簡訊、email)',
+      	en: '(SMS, email)'
+    },
+    'Value-added services': {
+      	zhtw: '加值服務',
+      	en: 'Value-added services'
+    },
+    'Cloud Live Video Conference': {
+      	zhtw: '雲端視訊直播會議',
+      	en: 'Cloud Live Video Conference'
+    },
+    'Text chat': {
+      	zhtw: '文字聊天',
+      	en: 'Text chat'
+    },
+    'Desktop Sharing': {
+      	zhtw: '桌面分享',
+      	en: 'Desktop Sharing'
+    },
+    'Voice, video': {
+      	zhtw: '語音、視訊',
+      	en: 'Voice, video'
+    },
+    'Combined with existing video equipment excluding': {
+      	zhtw: '結合現有視訊設備另計',
+      	en: 'Combined with existing video equipment excluding'
+    },
+    'Online questionnaire': {
+      	zhtw: '線上問卷',
+      	en: 'Online questionnaire'
+    },
+    'Question function': {
+      	zhtw: '提問功能',
+      	en: 'Question function'
+    },
+    'Voting': {
+      	zhtw: '投票功能',
+      	en: 'Voting'
+    },
+    'Two questionnaires': {
+      	zhtw: '兩份問卷',
+      	en: 'Two questionnaires'
+    },
+    'Every five issues': {
+      	zhtw: '每份五個問題',
+      	en: 'Every five issues'
+    },
+    'Cloud data storage Meeting': {
+      	zhtw: '會議資料雲端儲存',
+      	en: 'Cloud data storage Meeting'
+    },
+    'The following value-added projects, the project will be based on the needs of different make adjustments, please contact us!': {
+      	zhtw: '以下加值專案、會依據專案需求不同做調整，歡迎和我們聯絡！',
+      	en: 'The following value-added projects, the project will be based on the needs of different make adjustments, please contact us!'
+    },
+    'VAT project': {
+      	zhtw: '加值專案',
+      	en: 'VAT project'
+    },
+    'Cloud Drive Storage 2350 NTD': {
+      	zhtw: '雲端儲存硬碟 2350 元',
+      	en: 'Cloud Drive Storage 2350 NTD'
+    },
+    'Increase NTD 299 optional, can be loaded on their own flash drive': {
+      	zhtw: '加價 NTD 299 選配，隨身碟可自行裝載',
+      	en: 'Increase NTD 299 optional, can be loaded on their own flash drive'
+    },
+    'Simple': {
+      	zhtw: '簡易型',
+      	en: 'Simple'
+    },
+    'Personal cloud adapter': {
+      	zhtw: '個人雲端轉接器',
+      	en: 'Personal cloud adapter'
+    },
+    'Without battery': {
+      	zhtw: '不加電池',
+      	en: 'Without battery'
+    },
+    'Ethernet Interface': {
+      	zhtw: '乙太網路接口',
+      	en: 'Ethernet Interface'
+    },
+    'QR Code Scan connection': {
+      	zhtw: 'QR Code 掃描連線',
+      	en: 'QR Code Scan connection'
+    },
+    'Support standard USB external storage device': {
+      	zhtw: '支援標準 USB 外接式儲存裝置',
+      	en: 'Support standard USB external storage device'
+    },
+    'Power Supplier': {
+      	zhtw: '電源供應器',
+      	en: 'Power Supplier'
+    },
+    'Ethernet cable': {
+      	zhtw: '乙太網路線',
+      	en: 'Ethernet cable'
+    },
+    '32GB flash drive': {
+      	zhtw: '32 GB 隨身碟',
+      	en: '32GB flash drive'
+    },
+    'Marketing again': {
+      	zhtw: '再次行銷',
+      	en: 'Marketing again'
+    },
+    'Through the "data analysis", "marketing analysis", "behavioral analysis" allows you to quickly and accurately and participants to interact, we\'ll turn on demand based pricing, please contact us': {
+      	zhtw: '透過「資料分析」、「行銷分析」、「行為分析」讓您快速而精準和與會者互動，我們會依據轉按需求計價，歡迎聯絡我們',
+      	en: 'Through the "data analysis", "marketing analysis", "behavioral analysis" allows you to quickly and accurately and participants to interact, we\'ll turn on demand based pricing, please contact us'
+    },
+    'Other peripheral services': {
+      	zhtw: '其他週邊服務',
+      	en: 'Other peripheral services'
+    },
+    "A key statistics, quick change business cards, attendance and other integrated cloud services support, once you are contracted out! Please contact us and we'll valuation based on the project needs": {
+      	zhtw: '一鍵統計表、快速換名片、雲端簽到等整合服務配套，一次包給您！請和我們聯絡，我們會依據專案需求計價',
+      	en: "A key statistics, quick change business cards, attendance and other integrated cloud services support, once you are contracted out! Please contact us and we'll valuation based on the project needs"
     },
 }

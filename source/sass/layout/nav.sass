@@ -6,6 +6,7 @@
 				display: block
 				transition: .2s
 				padding: 1rem
+				font-weight: bold
 	+sm
 		> ul
 			> li
@@ -13,6 +14,12 @@
 				> a
 					color: #fff
 					font-size: 16px
+					&:hover
+						color: rgba(255,255,255,.8)
+					.white-bg &
+						color: $dark-blue
+						&:hover
+							color: $primary
 				&.current > a
 					color: $primary
 				.dropdown-menu
