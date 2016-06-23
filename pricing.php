@@ -25,7 +25,7 @@
 	    			<li class="space-1"><span class="trn">Email:</span>service＠faithtech.com.tw</li>
 	    			<li><span class="trn">Tel:</span>+886266396528 # 6404</li>
 	    		</ul>
-	    		<div class="hidden-xs"><a href="http://www.faithtech.com.tw/pricing-table.pdf" class="btn btn-bordered btn-white"><i class="fa fa-cloud-download" aria-hidden="true"></i> <span class="trn">Download Price List</span></a></div>
+	    		<div class="hidden-xs"><a href="http://www.faithtech.com.tw/check_in-price.pdf" class="btn btn-bordered btn-white"><i class="fa fa-cloud-download" aria-hidden="true"></i> <span class="trn">Download Price List</span></a></div>
 	    	</div>
     	</div>
     	<div class="container">
@@ -152,7 +152,7 @@
     					<li class="space-1"><span class="trn">Email:</span><a href="mailto:service＠faithtech.com.tw" class="text-primary text-underline">service＠faithtech.com.tw</a></li>
     					<li><span class="trn">Tel:</span>+886266396528 # 6404</li>
     				</ul>
-    				<div class="hidden-xs"><a href="http://www.faithtech.com.tw/pricing-table.pdf" class="btn btn-bordered btn-default"><i class="fa fa-cloud-download" aria-hidden="true"></i> <span class="trn">Download Price List</span></a></div>
+    				<div class="hidden-xs"><a href="http://www.faithtech.com.tw/check_in-price.pdf" class="btn btn-bordered btn-default"><i class="fa fa-cloud-download" aria-hidden="true"></i> <span class="trn">Download Price List</span></a></div>
     			</div>
     			<p class="space-2 font-sm trn">Or you can fill out "to do active service appointment" and that you will be contacted by the person</p>
     			<div class="text-center space-4"><a class="btn btn-primary btn-xl trn" data-toggle="modal" data-target="#modal-booking">Send Order</a></div>
