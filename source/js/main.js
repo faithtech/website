@@ -1,4 +1,9 @@
 $(function(){
+	// load
+	$('#in-header-box').load('in_header.html');
+	$('#nav-4').load('in_footer.html');
+	$('#in-order-form-box').load('in_order_form.html');
+
 	// js cookie
 	function setCookie(cname, cvalue, exdays) {
 	    var d = new Date();
@@ -38,29 +43,33 @@ $(function(){
 			translator.lang(lang);
 			setCookie('cookieLang', lang, 365);
 		});
+
+		// nav-main
+		var mask = document.createElement('div');
+		mask.classList.add('black-mask');
+		document.body.appendChild(mask);
+		document.getElementById('btn-menu').addEventListener('click', function(e){
+			mask.classList.add('show');		
+	  		document.body.classList.add('nav-main-open');
+	  		e.stopPropagation();
+	 		document.addEventListener('click', function(e){
+	 			if(!e.target.closest('#dropdownLang')){
+		  			document.body.classList.remove('nav-main-open');
+		  			mask.classList.remove('show');
+		  		}
+	  		});
+		});
+
+		// btn-scroll
+		$('.btn-scroll').on('click', function(){
+			var target = $(this.hash).offset().top;
+			$('html, body').animate({'scrollTop': target});
+		});
 	}
 
-	// nav-main
-	var mask = document.createElement('div');
-	mask.classList.add('black-mask');
-	document.body.appendChild(mask);
-	document.getElementById('btn-menu').addEventListener('click', function(e){
-		mask.classList.add('show');		
-  		document.body.classList.add('nav-main-open');
-  		e.stopPropagation();
- 		document.addEventListener('click', function(e){
- 			if(!e.target.closest('#dropdownLang')){
-	  			document.body.classList.remove('nav-main-open');
-	  			mask.classList.remove('show');
-	  		}
-  		});
-	});
+	
 
-	// btn-scroll
-	$('.btn-scroll').on('click', function(){
-		var target = $(this.hash).offset().top;
-		$('html, body').animate({'scrollTop': target});
-	});
+	
 
 	// form-booking
 	$('#form-booking').on('submit', function(e){
@@ -119,7 +128,4 @@ $(function(){
            	}
         });    	
 	});
-
-	// pricing
-
 });
