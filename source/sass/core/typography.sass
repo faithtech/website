@@ -26,6 +26,30 @@
 .subtitle
 	font-size: 16px
 
+.title-left-border
+	border-left: 10px solid $dark-blue
+	background-color: #f2f2f2
+	font-size: 24px
+	color: $dark-blue
+	padding: 1rem 2rem
+	font-weight: bold
+
+.title-table
+	font-size: 16px
+	color: $dark-blue
+	font-weight: bold
+
+.font-sm
+	font-size: 16px
+
+.phone-text-xs
+	+phone
+		font-size: 12px
+
+.tip
+	font-size: 12px
+	color: $gray
+
 .list-disc
 	list-style-type: disc
 	padding-left: 18px
@@ -60,3 +84,14 @@
 	img
 		margin-left: auto
 		margin-right: auto
+
+.text-underline
+	text-decoration: underline
+
+.text-left-sm
+	+phone
+		text-align: center
+	+sm
+		text-align: left
+	+md
+		text-align: center
