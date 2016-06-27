@@ -86,23 +86,23 @@ var dict = {
   	// Checkin+ 如何和您合作？
   	'How to work with you?': {
     	zhtw: '如何協助您辦活動更省事？',
-    	en: 'How to work with you?'
+    	en: 'How can Checkin+ help you host your event with less hassle'
   	},
   	'Checkin+ will send someone to the site to help you install the system, six minutes to complete the installation. Just write down a single appointment, the person immediately and contact you': {
     	zhtw: 'Checkin+ 會派專人到現場協助您安裝『簽報到服務』，您無須準備任何設備，六分鐘就能安裝完成。有活動需求，只要寫下預約單，專人立即和您聯絡',
-    	en: 'Checkin+ will send someone to the site to help you install the system, six minutes to complete the installation. Just write down a single appointment, the person immediately and contact you'
-  	},
+    	en:"Checkin+ will send experts to your site to install 'The Registration/Check-in Service.'You don't need to prepare a thing and in 6 minutes the installation will be complete. If you have any special requests for you event, just fill out the appointment form and a professional will be in contact with you right away."
+    },
   	'Fill a single appointment': {
     	zhtw: '填寫預約單',
-    	en: 'Fill a single appointment'
+    	en: 'Fill out the appointment form'
   	},
   	'Discuss project needs': {
     	zhtw: '討論專案需求',
-    	en: 'Discuss project needs'
+    	en: 'Discuss specific requests'
   	},
   	'To install in meeting': {
     	zhtw: '到活動會場安裝',
-    	en: 'To install in meeting'
+    	en: 'On site installation at your event.'
   	},
 
   	// Checkin+ 還可以幫您什麼？
