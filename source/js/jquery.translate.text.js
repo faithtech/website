@@ -6,11 +6,11 @@ var dict = {
   	},
   	'How to work?': {
     	zhtw: '如何合作？',
-    	en: 'How to work?'
+    	en: 'How can you join?'
   	},
   	'Our Services': {
     	zhtw: '加值服務',
-    	en: 'Our Services'
+    	en: 'Premium Service'
   	},
   	'Price List': {
     	zhtw: '價格表',
@@ -18,7 +18,7 @@ var dict = {
   	},
   	'About': {
     	zhtw: '關於我們',
-    	en: 'About'
+    	en: 'About us'
   	},
   	'Lang': {
     	zhtw: 'English',
@@ -27,15 +27,15 @@ var dict = {
   	// slogan 要精簡
   	'・Exhibition leader': {
     	zhtw: '・會展科技領導者',
-    	en: '・Exhibition leader'
+    	en: '・The Leader in Tech-Conferences'
   	},
   	'・Fully functional': {
     	zhtw: '・全功能簽到服務',
-    	en: '・Fully functional'
+    	en: '・Comprehensive and multi-functional registration service'
   	},
   	'・More smoothly': {
     	zhtw: '・雲端視訊及電話',
-    	en: '・More smoothly'
+    	en: '・Making your events run smoothly'
   	},
   	'Send Order': {
     	zhtw: '辦活動服務預約',
@@ -45,34 +45,34 @@ var dict = {
   	// What is Checkin+ ?
   	'Checkin+ is little helper activity report, regardless of how much human activity is, Checkin+ can help you save a lot of human volunteers, so that your activities are no longer running around in circles': {
     	zhtw: '・Checkin+ 是活動報到小助手，不論多少人的活動，Checkin+ 都可以幫你節省大量的人力，讓您的活動不再手忙腳亂',
-    	en: 'Checkin+ is little helper activity report, regardless of how much human activity is, Checkin+ can help you save a lot of human volunteers, so that your activities are no longer running around in circles'
+    	en: 'Checkin+ assists in event registration and so much more. No matter how big or small, Checkin+ can help you save manpower, allowing your event to run smoothly.'
   	},
 
     'Checkin + is the cloud communications assistant, APP cloud-free online video conferencing, as well as free Internet phone service switch office': {
       zhtw: '・Checkin+ 是雲端通訊小助手，提供雲端視訊線上會議及無交換機網路電話服務，兩岸三地通話順暢，接國外電話免電話費，客戶聯繫一把罩',
-      en: 'Checkin + is the cloud communications assistant, APP cloud-free online video conferencing, as well as free Internet phone service switch office'
+      en: 'Checkin+ is a "cloud based" video conference assistant, which not only facilitates your conference but does so without the hassles of having to switch hardware, Internet or telephone services, making the connection between Mainland China, Taiwan and Hong Kong seamless. Fees for accepting overseas calls are all covered under this plan.'
     },
 
     'Checkin + is again marketing assistant, to help you quickly Activities statistics, real-time marketing, remarketing take forward, combined with cross-industry': {
       zhtw: '・Checkin+ 是再次行銷小助手，快速協助您統計活動內容、即時行銷、數據分析，更協助您的生意異業結合',
-      en: 'Checkin + is again marketing assistant, to help you quickly Activities statistics, real-time marketing, remarketing take forward, combined with cross-industry'
+      en: 'Checkin+ is also a marketing assistant, organizing your vital stats such as up to date sales, data analysis and other cross-industry data with expedience.'
     },
 
   	'Cloud Communication': {
     	zhtw: '雲端通訊',
-    	en: 'Cloud Communication'
+    	en: 'Cloud Communications Service'
   	},
   	'Video Cloud provides, section fee phone system that allows you to communicate with customers without borders': {
     	zhtw: '提供雲端視訊、節費電話系統，讓您與客戶溝通無國界',
-    	en: 'Video Cloud provides, section fee phone system that allows you to communicate with customers without borders'
+    	en: 'We provide cloud communication service, VoIP (voice over Internet protocol) allowing you to communicate with your clients without borders.'
   	},
   	'Save manpower': {
     	zhtw: '節省人力',
-    	en: 'Save manpower'
+    	en: 'Saving manpower'
   	},
   	'With the most streamlined manpower, so that a large number of participants complete report': {
     	zhtw: '用最精簡的人力，讓大量的與會者完成報到，一鍵產生所有活動統計報表',
-    	en: 'With the most streamlined manpower, so that a large number of participants complete report'
+    	en: 'Use the least amount of manpower to help a large amount of participants check in at the conference. In one key stroke, you can bring up reports containing vital statistics of the event.'
   	},
   	'ReMarketing': {
     	zhtw: '再次行銷',
@@ -80,7 +80,7 @@ var dict = {
   	},
   	'Allowing you to quickly and accurate interactive and participants': {
     	zhtw: '客製化流程、即時簡訊及郵件、現場互動社群，讓您快速而精準給予與會者貼心的服務',
-    	en: 'Allowing you to quickly and accurate interactive and participants'
+    	en: 'A customized process with immediate notifications and e-mails as well as onsite personnel, which allows you to quickly and thoughtfully address the needs of the conference participants.'
   	},
 
   	// Checkin+ 如何和您合作？
